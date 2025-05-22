@@ -5,6 +5,7 @@ Joshua Park A16966614
 Within a Github action that runs whenever code is pushed, because manual run can be unpredictable when errors occur from local bugs. Running them after development is a bad idea since you have to repeat many debugging cycles at the later stages. Testing when pushing is ideal since it is in a controlled environment before new code reaches "safe" code
 
 2) Would you use an end to end test to check if a function is returning the correct output? (yes/no)
+
 No, since a unit test is better suited for that
 
 3) Navigation mode provides metrics for the page load, such as how quickly/smoothly the page loads. It shows how good/efficient the JS is along with rendering parts. Good for analytics in the 'read-world' since users will be interacting with the website
